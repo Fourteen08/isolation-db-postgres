@@ -158,7 +158,7 @@ commit;
 | level           | Dirty read | Non-repeatable read | Lost update | Phantoms | Serialization anomaly |
 |-----------------|------------|---------------------|-------------|----------|-----------------------|
 | Read committed  | ❌          | ✅                   | ✅           | ✅        | ✅                     |
-| Repeatable read | ❌          | ❌                   | ❌           | ❌        | ❌                     |
+| Repeatable read | ❌          | ❌                   | ❌           | ❌        | ✅                     |
 | Serializable    | ❌          | ❌                   | ❌           | ❌        | ❌                     |
 
 Read uncommitted behaves exactly as read committed, which is default
